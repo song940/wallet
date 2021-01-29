@@ -1,0 +1,25 @@
+@import url(https://lsong.org/stylesheets/theme/default.css);
+@import url(https://lsong.org/stylesheets/form.css);
+@import url(https://lsong.org/stylesheets/link.css);
+@import url(https://lsong.org/stylesheets/button.css);
+
+body {
+  margin: auto;
+  max-width: 650px;
+  color: var(--text-color);
+  font-family: "Fira Code", monospace;
+  background-color: var(--background-color);
+}
+
+.container {
+  padding: 15px;
+  background-color: var(--content-background-color);
+}
+
+label {
+  display: block;
+}
+
+.balance-amount {
+  font-size: 60px;
+}
