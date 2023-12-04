@@ -2,7 +2,7 @@ import { ready } from 'https://lsong.org/scripts/dom.js';
 import { rand, randomId } from 'https://lsong.org/scripts/math.js';
 import { numberWithCommas } from 'https://lsong.org/scripts/number.js';
 import { sample } from 'https://lsong.org/scripts/array.js';
-import { h, render, useState, useEffect, Panel, List } from 'https://lsong.org/scripts/components/index.js';
+import { h, render, useState, useEffect, Panel, List } from 'https://lsong.org/scripts/react/index.js';
 
 const Balance = ({ amount }) => {
   return h('div', {}, [
